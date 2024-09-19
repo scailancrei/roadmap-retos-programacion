@@ -163,6 +163,7 @@ async function startBattle() {
     Deadpool.vida > 0 ? "Deadpool!" : "Wolverine!"
   )
   console.log("Game over!")
+  rl.close()
 }
 
 startBattle()
